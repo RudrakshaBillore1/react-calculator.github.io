@@ -1,9 +1,10 @@
 import React from 'react';
-import { useReducer } from "react"
+import  {useReducer}  from "react"
 import DigitButton from "./DigitButton"
 import OperationButton from "./OperationButton"
 import './App.css';
-import { Tittle } from './Tittle';
+import {logo} from "./logo.png";
+
 
 export const ACTIONS = {
 ADD_DIGIT:"add-digit",
@@ -140,8 +141,9 @@ function App(){
   )
  
     return (
-      <div>
-        <Tittle/>
+
+        
+        
       <div className="calculator-grid">
       <div className="output">
         <div className="previous-operand">
@@ -156,7 +158,7 @@ function App(){
         AC
       </button>
       <button onClick={() => dispatch({ type: ACTIONS.DELETE_DIGIT })}>
-        DEL
+        DEL 
       </button>
       <OperationButton operation="÷" dispatch={dispatch} />
       <DigitButton digit="1" dispatch={dispatch} />
@@ -180,7 +182,7 @@ function App(){
         =
       </button>
     </div>
-    </div>
+
     );
   }
 
