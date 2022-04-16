@@ -6,7 +6,7 @@
    
    
    
- <p height = "10 " width = "10 ">This is REACT CALCULATOR APP it's make simple to calulate. </br> With best UI and Simplicity .</p> 
+ <p height = "10 " width = "10 ">This is REACT CALCULATOR APP it's make simple to calculate. </br> With best UI and Simplicity .</p> 
   
   <span> <a herf = "https://rudrakshabillore1.github.io/react-calculator.github.io/"> OPEN REACT CALCULATOR APP </a> </span>
                 
