@@ -14,7 +14,7 @@
                
                
                
-                                                  Image  
+<h float = "centre">   Image  <h>
                
                
 <div> <img src = "https://user-images.githubusercontent.com/102648499/163682952-7bf3d2fa-0659-45bc-9edd-c3b647d18b1b.png" alt = "img" />
